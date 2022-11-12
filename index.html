@@ -74,7 +74,7 @@
             </div>
             
             <div class="cardWrapper">
-                <div class="card" v-for="rapper in filteredRappers" :key="rapper.id" data-aos="flip-left">
+                <div class="card" v-for="rapper in filteredRappers" :key="rapper.id">
         
                     <div class="icon" v-bind:data-micromodal-trigger="`modal-ArtistImg${rapper.id}`"><img style="width:100%;height:100%;object-fit:cover;" :src="rapper.rapperImg"></div>
         
